@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:ital,wght@1,300&display=swap');
+
+html,
+body {
+    background-color: rgb(31, 27, 27);
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator-container {
+    text-align: center;
+    border: 10px solid rgb(83, 58, 100);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    width: 312px;
+}
+
+h1{
+    margin: 9px;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    text-align: right;
+  }
+
+.button {
+    font-size: 18px;
+    width: 60px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(129, 127, 127);
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(75, 73, 73);
+    color: rgb(238, 156, 25);
+    transition: background-color 0.3s, transform 0.2s;
+    /* position: absolute; */
+    /* top: -30px; */
+}
+.button:hover {
+    background-color: rgb(112, 134, 137);
+    transform: scale(1.1);
+}
+.button:secondlast-child {
+    display: none;
+}
+.button:last-child {
+    left: 70px; /* Position the "x" button above "8" */
+}
+
+.row {
+    display: flex;
+    margin: 8px;
+    align-items: center;
+}
+
+.row input {
+    width: 250px;
+    font-size: 24px;
+    margin: 0;
+    padding: 7px;
+    border: 2px solid rgb(129, 127, 127)k;
+    border-radius: 15px;
+    background-color: rgb(218, 215, 215);
+}
